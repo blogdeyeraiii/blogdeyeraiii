@@ -44,16 +44,18 @@ Métodos de estudio eficaces y resultivos</h1>
 
 </p>
 
-<textarea name="" id="texto" cols="30" rows="10">
+<h3>Piedra, papel o tijera</h3>
+<div class="choices">
 
+    <button onclick="javascript:alert('Piedra, con esto haces lo que quieres pero estás indefenso');" class="bt1">Piedra</button>
 
-<div id="mensaje"></div>
-<script>
-setInterval(function(){
-    let cuadro = document.getElementById("texto").value
-    let lienzo = document.getElementById("mensaje").innerHTML=cuadro}, 100)
-</script>
-</textarea>
+    <button onclick="javascript:alert('Papel, incorrecto, escogiste mal');" class="bt2">Papel</button>
+
+    <button onclick="javascript:alert('Tijera, la mejor heramienta, has ganado');" class="bt3">Tijera</button>
+    <br>
+    <textarea name="texto" rows="4" cols="50" maxlength="1000"></textarea>
+    <a href="indexchat.html">CHAT PARA TONTOS</a>
+</div>
     <label>
         Buscar
     </label>
