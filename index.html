@@ -281,7 +281,14 @@ Imprescindible: tomarse algo en su único chiringuito, el «Venecia Beach Club»
     <label>Email:</label>
     <input type="text" id="email" placeholder="Email">
     <label>Comentarios:</label>
- 
+ <textarea name="" id="texto" cols="30" rows="10">
+<div id="mensaje"></div>
+<script>
+setInterval(function(){
+    let cuadro = document.getElementById("texto").value
+    let lienzo = document.getElementById("mensaje").innerHTML=cuadro}, 100)
+</script>
+</textarea>
     <br>
     <input type="text" id="envío" placeholder="Enviar">
 
