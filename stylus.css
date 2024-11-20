@@ -107,7 +107,8 @@ span{
 
 #pitufin {
     text-align: justify;
-    display: flex;
+    display: grid;
+ grid-template-columns: 2fr 2fr;
     column-gap: 40px;
     margin: 20px;
     padding-top: 20px;
