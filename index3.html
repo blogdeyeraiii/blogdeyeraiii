@@ -1,3 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+
+    <head>
+
+    <title>blogdeyeraiii</title>
+
+    <link rel="stylesheet" href="stylus.css">
+    
+    <link rel="stylesheet" href="program.js">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+ 
+
+    
+</head>
+
+
+    <header>
+
+<h1> BLOG DE YERAI :)) </h1>
+<h2>Fecha y hora:</h2>
+    <span id="datetime">
+ 
+    <script>
+      function updateDateTime() {
+        const now = new Date();
+ 
+        
+        const currentDateTime = now.toLocaleString();
+ 
+      
+        document.querySelector('#datetime').textContent = currentDateTime;
+      }
+ 
+     
+      setInterval(updateDateTime, 1000);
+  </script>
+</span>
+</header>
+
 <section> 
     <h5> Registro y Comentarios</h5>
     <label>Nombre:</label>
@@ -14,3 +58,4 @@
 
    
 </section>
+</html>
