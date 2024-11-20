@@ -254,6 +254,9 @@ display: inline-block;
 .bt2{background-color:blue;color:white;width:120px;padding:6px;border-radius:5px;}
 .bt3{background-color:green;color:white;font-size:1.2em; padding:12px; padding:6px;border-radius:50%;}
 
+section{
+ margin:10%;
+}
 
 textarea{
     margin-bottom: 0px;
