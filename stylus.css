@@ -16,6 +16,13 @@ padding-top:lem; border-radius:0.5em;
 background:linear-gradient(to right,#833ab4 0%,#fd1d1d 50%,#fcb045 100%);
 }
 
+#datetime{
+padding:10px;
+
+}
+
+
+
 script{
 margin: 20px;
 color: aquamarine;
